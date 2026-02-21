@@ -43,8 +43,8 @@ Each task has:
 - **branch**: feat/easter-egg-hover-effects
 - **status**: `waiting_review`
 - **created**: 2026-02-18
-- **last_check**: 2026-02-21
-- **notes**: ✅ Fixed (2026-02-21): Added explicit width="24" height="24" attributes to all SVG icons (Twitter, GitHub, LinkedIn, Instagram). Icons should now render correctly.
+- **last_check**: 2026-02-21 16:21
+- **notes**: ✅ Fixed (2026-02-21): Added explicit width="24" height="24" attributes to all SVG icons (Twitter, GitHub, LinkedIn, Instagram). Icons should now render correctly. Still shows old CHANGES_REQUESTED from Feb 19 - needs Jack to re-review.
 
 ---
 
