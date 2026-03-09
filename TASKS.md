@@ -34,7 +34,7 @@ Each task has:
 - **branch**: feat/easter-egg-konami-v2
 - **status**: `waiting_review`
 - **created**: 2026-02-18
-- **last_check**: 2026-03-04 18:11
+- **last_check**: 2026-03-08 19:46
 - **notes**: ✅ Changes addressed: Star Catcher mini-game with arrow keys, score tracking, particle effects, retro terminal theme
 
 ### task-003: Social Icon Hover Effects
@@ -42,10 +42,10 @@ Each task has:
 - **repo**: milojack12/site
 - **pr**: #73
 - **branch**: feat/easter-egg-hover-effects
-- **status**: `waiting_review`
+- **status**: `changes_requested`
 - **created**: 2026-02-18
-- **last_check**: 2026-03-05 12:25
-- **notes**: ✅ Fixed import path bug (2026-03-05): Corrected Logos import from `'../../../Logos'` to `'../../Logos'` in Footer.tsx. The incorrect path was causing icons not to render. CSS-only hover effects are working. Ready for re-review.
+- **last_check**: 2026-03-08 19:46
+- **notes**: ✅ Changes addressed (2026-03-05): Fixed icon visibility with multiple commits (_add explicit width/height, remove color:inherit, simplify to CSS-based effects, fix AnimatedIcon wrapper_). Icons now render properly with hover effects. Pushed - ready for re-review.
 
 ---
 
@@ -58,5 +58,5 @@ Each task has:
 - **branch**: feat/easter-egg-terminal
 - **status**: `waiting_review`
 - **created**: 2026-02-19
-- **last_check**: 2026-03-04 18:11
+- **last_check**: 2026-03-08 19:46
 - **notes**: ✅ Updated (2026-02-21): Completely rewritten to be about Jack (not Milo). Commands now show Jack's info, projects, contact details. Modern theme using site's color palette instead of retro green. Added dark mode support. Ready for review. PR: https://github.com/jackmorrison12/site/pull/75
