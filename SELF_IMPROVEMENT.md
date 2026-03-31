@@ -27,6 +27,50 @@ update_method: message | email | batched
 
 ## Completed Sessions
 
+### session-013: Screen Time Integration 📱 ✅
+- **focus_area**: Create helper for macOS Screen Time data extraction  
+- **time_budget**: ~30 minutes
+- **actual_time**: ~15 minutes
+- **delivered**: `scripts/screen-time-helper.js` - CLI with export instructions, data parser, manual template
+- **update_method**: milestone
+- **started**: 2026-03-31T16:50:00Z
+- **completed**: 2026-03-31T20:40:00Z
+- **status**: completed
+- **notes**: Provides manual export instructions since macOS restricts API access. Template for data entry. Pushed to https://github.com/milojack12/stats-tracker
+
+### session-012: OpenClaw Stats Tracker 📊 ✅
+- **focus_area**: Stats tracking system for Jack's interactions
+- **time_budget**: ~60 minutes
+- **actual_time**: ~15 minutes
+- **delivered**: `scripts/stats-tracker.js` - Parses memory files, tracks activity, generates reports
+- **update_method**: milestone
+- **started**: 2026-03-31T13:50:00Z
+- **completed**: 2026-03-31T14:00:00Z
+- **repo**: https://github.com/milojack12/stats-tracker
+- **status**: completed
+- **notes**: Found 6 memory files, 5 PRs, 3 repos tracked. JSON summary output for integrations.
+
+### session-011: PR Review Reminder 🔔 ✅
+- **focus_area**: Create a cron job that checks for stale PRs waiting on Jack's review
+- **time_budget**: ~45 minutes
+- **actual_time**: ~15 minutes
+- **delivered**: `scripts/pr-reminder.js` working script
+- **update_method**: immediate
+- **started**: 2026-03-28T19:41:00Z
+- **completed**: 2026-03-28T20:00:00Z
+- **status**: completed
+
+### session-010: Home Assistant Config Research 🏠 ✅
+- **focus_area**: Research and prepare Home Assistant configuration templates
+- **time_budget**: ~60 minutes
+- **actual_time**: ~30 minutes
+- **delivered**: Starter repo with common integrations
+- **update_method**: milestone
+- **started**: 2026-03-25T09:48:00Z
+- **completed**: 2026-03-25T11:25:00Z
+- **repo**: https://github.com/milojack12/ha-config
+- **status**: completed
+
 ### session-005: Memory Visualizer ✅
 - **focus_area**: CLI tool to parse memory/YYYY-MM-DD.md files and generate activity summaries/timelines
 - **time_budget**: ~45 minutes

@@ -34,8 +34,8 @@ Each task has:
 - **branch**: feat/easter-egg-konami-v2
 - **status**: `waiting_review`
 - **created**: 2026-02-18
-- **last_check**: 2026-03-08 19:46
-- **notes**: ✅ Changes addressed: Star Catcher mini-game with arrow keys, score tracking, particle effects, retro terminal theme
+- **last_check**: 2026-03-31 17:07
+- **notes**: ✅ Changes addressed: Star Catcher mini-game with arrow keys, score tracking, particle effects, retro terminal theme. Jack reviewed with COMMENTED (2026-02-19), waiting for approval. No new reviews.
 
 ### task-003: Social Icon Hover Effects
 - **description**: Exciting hover animations on footer social icons
@@ -44,12 +44,8 @@ Each task has:
 - **branch**: feat/easter-egg-hover-effects
 - **status**: `changes_requested`
 - **created**: 2026-02-18
-- **last_check**: 2026-03-08 19:46
-- **notes**: ✅ Changes addressed (2026-03-05): Fixed icon visibility with multiple commits (_add explicit width/height, remove color:inherit, simplify to CSS-based effects, fix AnimatedIcon wrapper_). Icons now render properly with hover effects. Pushed - ready for re-review.
-
----
-
-*No completed tasks yet.*
+- **last_check**: 2026-03-31 17:07
+- **notes**: ✅ Fix pushed (2026-03-26): Simplified CSS to fix visibility. Removed potential conflicting props (color override, padding overflow, max-width). Icons now inherit color from .footer a. Hover effects preserved. Still waiting for Jack's re-review.
 
 ### task-004: Hidden Terminal Easter Egg
 - **description**: Mini CLI overlay that opens with ` key, has commands like help, whoami, projects, secret
@@ -58,5 +54,17 @@ Each task has:
 - **branch**: feat/easter-egg-terminal
 - **status**: `waiting_review`
 - **created**: 2026-02-19
-- **last_check**: 2026-03-08 19:46
-- **notes**: ✅ Updated (2026-02-21): Completely rewritten to be about Jack (not Milo). Commands now show Jack's info, projects, contact details. Modern theme using site's color palette instead of retro green. Added dark mode support. Ready for review. PR: https://github.com/jackmorrison12/site/pull/75
+- **last_check**: 2026-03-31 17:07
+- **notes**: ✅ Addressed all feedback (2026-03-28 14:08): 1) whoami was already about Jack, fixed PR description typo 2) Already modern GitHub dark theme, updated PR description 3) Fixed newline formatting in PR description. Extended PR description with more details. Commented on PR. Waiting for review.
+
+### task-005: Home Assistant Config Research
+- **description**: Research/prepare Home Assistant configs for Jack's upcoming setup
+- **repo**: milojack12/ha-config
+- **status**: `completed`
+- **created**: 2026-03-25
+- **completed_at**: 2026-03-25T11:25:00Z
+- **notes**: ✅ Repo created with starter configs: configuration.yaml, automations, scenes, scripts, integrations (lights, climate, sensors), secrets template. Live at https://github.com/milojack12/ha-config
+
+---
+
+*No completed tasks yet.*
