@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-03-31T16:53:55.418Z",
+  "summary": {
+    "daysActive": 6,
+    "totalDays": 32,
+    "totalSessions": 1,
+    "estimatedMessages": 0,
+    "userMessages": 0,
+    "assistantMessages": 0,
+    "dateRange": {
+      "start": "2026-02-16",
+      "end": "2026-03-19"
+    }
+  },
+  "dailyActivity": {
+    "2026-02-16": 1,
+    "2026-02-17": 1,
+    "2026-02-21": 1,
+    "2026-03-09": 1,
+    "2026-03-12": 1,
+    "2026-03-19": 1
+  },
+  "commandsUsed": {},
+  "prs": [
+    "71",
+    " 2026",
+    "73",
+    "75",
+    "74"
+  ],
+  "repos": [
+    "milojack12/code-review-helper",
+    "milojack12/dashboard",
+    "milojack12/spotify-wrapped"
+  ]
+}
